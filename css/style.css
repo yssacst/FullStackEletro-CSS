@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+#formaDePagamento{
+    color: red;
+    font-weight: bold;
+}
+header{
+    padding-left: 20px;
+}
+main{
+    padding: 20px;
+}
+.menu{
+    background-color: #FF0000;
+    height: 80px; 
+    padding: 2px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding-left: 4%;
+    justify-content: center;
+    
+}
+.menu img{
+    padding-left: 10px;
+}
+.boxMain{
+    display: flex;
+    padding: 10px;
+}
+.categorias{
+    min-width: 20%;
+    max-width: 20%;
+}
+.produtos{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+.boxProduto{
+    display: inline-flexbox;
+}
+.preco{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+.descricao{
+    font-size: 12px;
+}
+#rodape{
+    text-align: center;
+}
+.boxDados{
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    padding: 20px;
+}
+.input{
+    width: 30%;
+}
+.flex{
+    display: flex;
+}
+.divFlex p{
+    margin-left: 5px;
+}
+footer{
+    left: 40%;
+    bottom: 0px;
+}
